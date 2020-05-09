@@ -41,7 +41,7 @@ function check(question2) {
     kerdes = "userRegistered?";
   } else if (question2.includes("igen")){
     if (kerdes == "userRegistered?"){
-      writeIn("Viki: Rendben! Akkor jelentkezz be, illetve válaszd ki a terméket, amit meg szeretnél vásárolni. Ezek után kattints a termék dobozában");
+      writeIn('Viki: Rendben! Akkor jelentkezz be, illetve válaszd ki a terméket, amit meg szeretnél vásárolni. Ezek után kattints a termék dobozában a "Megnézem" gombra!');
       kerdes = "none";
     } else if (kerdes == "areuNoob?") {
       writeIn("Viki: Rendben, akkor regisztrálj!");
